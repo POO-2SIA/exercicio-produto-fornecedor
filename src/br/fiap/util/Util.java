@@ -32,6 +32,7 @@ public class Util {
                     cadastrarProduto(cnpjFornecedor);
                     break;
                 case 2:
+                    cnpjFornecedor = parseLong(showInputDialog("Insira o valor do CNPJ do fornecedor")); // Checar com o prof
                     showMessageDialog(null, exibirInfoProduto());
                     break;
                 case 3:
